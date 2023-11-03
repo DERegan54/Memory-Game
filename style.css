@@ -1,19 +1,48 @@
 body {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 
-h1 {
+.main-container {
+    background-color: lightgrey;
+    border: 5px solid black;
+    padding-bottom: 30px;
+    margin: 50px 425px 50px 425px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
     color: indianred; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h3 {
+    color: black;
+}
 
+.score {
+    color: black;
+}
+
+.card {
+    background-color: #fff;
+}
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+}
+
+.grid-container {
+    border: 2px solid black;
+    height: 488px;
+    width: 367px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
 }
 
 
