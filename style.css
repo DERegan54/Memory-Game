@@ -19,6 +19,9 @@ body {
 h3 {
     color: black;
 }
+h4 {
+    color: darkgrey;
+} 
 
 .score {
     color: black;
